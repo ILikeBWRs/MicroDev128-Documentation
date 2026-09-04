@@ -1,0 +1,39 @@
+---
+
+# Quick Start Guide
+
+This guide assumes that you already have assembled or brought one. It also assumes you have a programmer (for programmer requirements see the *Programmer* section.
+
+---
+
+## Step One - Setting up the Arduino IDE
+
+Download the Arduino IDE software at : -[Link to download](https://www.arduino.cc/en/software/)
+
+Once you have installed the IDE you will want to get the DxCore installed. It is a simple process. 
+
+This board package can be installed via the board manager. The boards manager URL is:
+
+``http://drazzy.com/package_drazzy.com_index.json``
+
+File -> Preferences, enter the above URL in "Additional Boards Manager URLs"
+Tools -> Boards -> Boards Manager...
+Wait while the list loads (takes longer than one would expect, and refreshes several times).
+Select "DxCore by Spence Konde" and click "Install". For best results, choose the most recent version.
+
+This will install all the needed software to use the MicroDev128-32P!
+
+---
+
+## Hardware Setup 
+
+### Programer
+
+To program the board you will need a UPDI programmer. There are many options:
+
+
+| Programmer | Cost | Ease of Use |
+| --- | --- | --- |
+| jtag2updi| $4-5 [Free if you have a spare Arduino] | Hard |
+| SerialUPDI [DIY] | $4-5 | Moderate |
+| Microchip Curiosty Nano | $15-25 | Easiest |
